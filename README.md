@@ -6,9 +6,17 @@
 ## Method
 This manuscript describes a flexible and easy-to-implement method for significantly improving the quality of brain MR images through motion removal, super resolution, and denoising. 
 
-## Data and MRI preprocessing
-### Training Data
-BCP: <https://nda.nih.gov/edit_collection.html?id=2848/>
+### File descriptions
+> Template
+
+>> Template_T1_24.xxx: a template for histogram matching of T1w images (24 months).
+
+> Testing_subjects
+
+>> The subjects in the folder ***Testing_subjects*** are only randomly selected examples for the model testing.
+
+>> subject-x-T1.xxx: the T1w MRI. 
+
 
 ### Steps:
 1. System requirements:
@@ -41,4 +49,9 @@ BCP: <https://nda.nih.gov/edit_collection.html?id=2848/>
     
     <img src="https://github.com/YueSun814/Img-folder/blob/main/caffe_display.jpg" width="50%">
     
-    Typical install time: few minutes. 
+    Typical install time: few minutes.
+   
+2. Testing steps:
+   In folder: ***Pretrained_models***
+    
+
